@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Rotel Amplifier",
+        "description": "Enter the IP address and optional port (default 9590).",
+        "data": {
+          "host": "Host",
+          "port": "Port",
+          "name": "Name"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the amplifier. Check network and port."
+    },
+    "abort": {
+      "already_configured": "This amplifier is already configured."
+    }
+  }
+}
+

@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+
+# Home Assistant build/test outputs
+.coverage
+.pytest_cache/
+
+
+# macOS/IDE
+.DS_Store
+.vscode/
+.idea/
